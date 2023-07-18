@@ -1,3 +1,4 @@
+import Deals from "@components/topDeals/Deals";
 import { Metadata } from "next";
 import React from "react";
 
@@ -9,7 +10,9 @@ export const metadata: Metadata = {
 const Dashboard = () => {
   return (
     <div className="dashboard__home">
-      <div className="box box1">Box1</div>
+      <div className="box box1">
+        <Deals />
+      </div>
       <div className="box box2">Box2</div>
       <div className="box box3">Box3</div>
       <div className="box box4">Box4</div>
