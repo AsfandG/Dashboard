@@ -2,6 +2,7 @@ import Footer from "@components/footer/Footer";
 import Header from "@components/header/Header";
 import Menu from "@components/menu/Menu";
 import React, { ReactNode } from "react";
+import "@styles/dashboard.scss";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (

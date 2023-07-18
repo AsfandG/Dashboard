@@ -1,0 +1,45 @@
+@import "./variables.scss";
+
+.dashboard {
+  background-color: $main-bg;
+  color: $main-color;
+
+  &__container {
+    display: flex;
+  }
+
+  &__menu {
+    width: 250px;
+    padding: 10px 20px;
+    border-right: 2px solid $soft-bg;
+  }
+
+  &__content {
+    padding: 10px 20px;
+    width: 100%;
+  }
+}
+
+.dashboard__home {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(180px, auto);
+  gap: 20px;
+
+  .box {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid $soft-bg;
+  }
+
+  .box1 {
+    grid-row: span 3;
+  }
+  .box4 {
+    grid-row: span 3;
+  }
+  .box7 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}

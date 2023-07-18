@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto_Condensed } from "next/font/google";
 import "@styles/global.scss";
 
-const inter = Roboto({
-  weight: ["300", "400", "500", "700"],
+const inter = Roboto_Condensed({
   subsets: ["latin"],
+  weight: ["300", "400"],
 });
 
 export const metadata: Metadata = {

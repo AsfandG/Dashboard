@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+
+  &__logo {
+    svg {
+      font-size: 50px;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    svg {
+      cursor: pointer;
+    }
+
+    &--icons {
+      display: flex;
+      gap: 20px;
+
+      svg {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__avatar {
+    cursor: pointer;
+  }
+}
