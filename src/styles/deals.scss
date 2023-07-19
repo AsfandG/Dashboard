@@ -1,13 +1,22 @@
 .deals {
+  h2 {
+    margin-bottom: 30px;
+  }
   &__list {
     &--item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
     }
     &--user {
+      display: flex;
+      gap: 20px;
     }
     &--userImage {
       position: relative;
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
 
       &--img {
         object-fit: cover;
@@ -15,12 +24,19 @@
       }
     }
     &--userText {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
     }
     &--username {
+      font-size: 14px;
+      font-weight: 500;
     }
     &--email {
+      font-size: 12px;
     }
     &--amount {
+      font-weight: 500;
     }
   }
 }

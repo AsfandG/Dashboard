@@ -1,3 +1,4 @@
+import ChartBox from "@components/chartBox/ChartBox";
 import Deals from "@components/topDeals/Deals";
 import { Metadata } from "next";
 import React from "react";
@@ -13,10 +14,18 @@ const Dashboard = () => {
       <div className="box box1">
         <Deals />
       </div>
-      <div className="box box2">Box2</div>
-      <div className="box box3">Box3</div>
-      <div className="box box4">Box4</div>
-      <div className="box box5">Box5</div>
+      <div className="box box2">
+        <ChartBox />
+      </div>
+      <div className="box box3">
+        <ChartBox />
+      </div>
+      <div className="box box4">
+        <ChartBox />
+      </div>
+      <div className="box box5">
+        <ChartBox />
+      </div>
       <div className="box box6">Box6</div>
       <div className="box box7">Box7</div>
       <div className="box box8">Box8</div>
