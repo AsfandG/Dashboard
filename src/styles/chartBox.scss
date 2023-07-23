@@ -4,10 +4,9 @@
 
   &__info {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    flex: 1;
+    flex: 3;
 
     &--title {
       display: flex;
@@ -26,10 +25,16 @@
       height: 100%;
     }
     &--text {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
     }
     &--percentage {
+      font-weight: bold;
+      font-size: 20px;
     }
     &--duration {
+      font-size: 14px;
     }
   }
 }
